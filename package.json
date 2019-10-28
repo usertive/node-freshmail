@@ -1,0 +1,35 @@
+{
+  "name": "node-freshmail",
+  "version": "1.0.0",
+  "description": "Freshmail integration for node.js",
+  "main": "lib/freshmail.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jestconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usertive/node-freshmail.git"
+  },
+  "keywords": [
+    "freshmail",
+    "node.js"
+  ],
+  "author": "Kornel Szałtanowicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/usertive/node-freshmail/issues"
+  },
+  "homepage": "https://github.com/usertive/node-freshmail#readme",
+  "dependencies": {
+    "@types/node": "12.11.7",
+    "request": "2.88.0",
+    "sha1": "1.1.1"
+  },
+  "devDependencies": {
+    "@types/jest": "24.0.20",
+    "jest": "24.9.0",
+    "ts-jest": "24.1.0",
+    "typescript": "3.6.4"
+  }
+}
